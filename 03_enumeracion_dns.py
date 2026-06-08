@@ -44,3 +44,13 @@ for tipo_registro in tipos_registros:
     print(f"\n[+] Registros DNS para {dominio_objetivo} (Tipo: {tipo_registro}):")
     for datos_registro in respuestas:
         print(f"    -> {datos_registro}")
+
+#Explicación del Código:
+
+#Librería dnspython: Utilizamos el módulo dns.resolver de esta librería, el cual nos facilita realizar consultas DNS y procesar las respuestas de forma conveniente.
+
+#Tipos de Registros: Consultar distintos registros revela diferentes piezas del rompecabezas. Por ejemplo, los registros A nos dan las direcciones IP detrás del dominio, los registros MX nos revelan qué servicio maneja sus correos (ej. Outlook, Google Workspace), y los registros TXT pueden revelar políticas anti-spam como SPF.
+
+#Objeto Resolver: Utilizamos dns.resolver.Resolver() y su método .resolve(), pasándole como parámetros nuestro dominio y el tipo de registro iterado en ese momento.
+
+#Manejo del Error NoAnswer: Es completamente normal que un dominio no tenga todos los tipos de registros configurados (por ejemplo, podría no tener direcciones IPv6 "AAAA"). Para evitar que el programa colapse, capturamos el error dns.resolver.NoAnswer y usamos continue para pasar al siguiente registro de la lista silenciosamente.
