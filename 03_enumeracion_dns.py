@@ -11,7 +11,7 @@ import dns.resolver # Requiere instalación previa: pip install dnspython
 # ==============================================================================
 
 # Definimos el dominio que queremos investigar
-dominio_objetivo = "thepythoncode.com" 
+dominio_objetivo = "scanme.nmap.org" 
 
 # Lista de los tipos de registros DNS más comunes que vamos a consultar
 # A y AAAA: Direcciones IPv4 e IPv6
