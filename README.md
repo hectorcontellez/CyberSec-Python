@@ -37,8 +37,3 @@ Los scripts están categorizados según las diferentes fases del hacking ético 
 ## 🚀 Requisitos y Configuración
 
 Para ejecutar la mayoría de estos scripts, necesitarás tener instalado **Python 3.x**. Algunas herramientas requieren librerías externas que pueden instalarse fácilmente.
-
-1. **Clonar el repositorio:**
-   ```bash
-   git clone [https://github.com/tu-usuario/CyberSec-Python.git](https://github.com/tu-usuario/CyberSec-Python.git)
-   cd CyberSec-Python
