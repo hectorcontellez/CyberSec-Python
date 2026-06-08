@@ -1,6 +1,3 @@
-# CyberSec-Python
-Colección de herramientas y scripts de ciberseguridad en Python enfocados en el Hacking Ético, recolección de información y automatización de auditorías de seguridad. Fines estrictamente educativos. 🛡️🐍
-
 # 🛡️ CyberSec Python
 
 Bienvenido a **CyberSec Python**, un repositorio dedicado a explorar la programación en Python orientada a la ciberseguridad y el hacking ético. Aquí encontrarás una colección de scripts diseñados para automatizar tareas de auditoría, comprender cómo funcionan las amenazas y reforzar la seguridad de sistemas y redes.
